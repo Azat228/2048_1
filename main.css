@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.game {
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    background-color: black;
+}
+
+.game .header {
+    height: 20vmin;
+    width: 80vmin;
+    font-size: 10vmin;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-bottom: 1PX solid black;
+}
+
+.game .field {
+    background-color: #ffffff;
+    height: 80vmin;
+    width: 80vmin;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.game .field .cell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18vmin;
+    width: 18vmin;
+    margin: 1vmin;
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 2vmin;
+    font-size: 10vmin;
+}
